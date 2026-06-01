@@ -1,0 +1,6 @@
+interface:
+  display_name: "QQ Homework Grader"
+  short_description: "Grade QQ homework and prepare spreadsheet score columns."
+  default_prompt: "Use $qq-homework-grader to grade the current QQ group homework with Computer Use, download experiment files to D:\\HW when needed, clean up downloaded files, and paste the score column into the open QQEX spreadsheet."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+
+# Local secrets and generated data
+.env
+.env.*
+weekly-rows.json
+scores.json
+*.log
+
+# Homework downloads / generated workbooks
+DHW/
+downloads/
+*.xlsx
+*.xls
+*.csv

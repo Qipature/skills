@@ -1,0 +1,27 @@
+{
+  "name": "qipature-skills",
+  "displayName": "Qipature Skills",
+  "description": "Personal agent skills for Notion reporting, QQ homework grading, and future self-built workflows.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Qipature"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Qipature/skills"
+  },
+  "skills": [
+    {
+      "name": "notion-api-weekly",
+      "path": "skills/productivity/notion-api-weekly/SKILL.md",
+      "category": "productivity",
+      "description": "Create row-by-row weekly report entries from recent Codex thread activity and upload them to Notion through the official API."
+    },
+    {
+      "name": "qq-homework-grader",
+      "path": "skills/teaching/qq-homework-grader/SKILL.md",
+      "category": "teaching",
+      "description": "Grade QQ group homework and prepare score columns for QQEX or Tencent Docs spreadsheets."
+    }
+  ]
+}
