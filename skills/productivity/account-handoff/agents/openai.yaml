@@ -1,0 +1,4 @@
+interface:
+  display_name: "Account Handoff"
+  short_description: "Summarize recent account work into a handoff file."
+  default_prompt: "Use $account-handoff to create a current account work inheritance Markdown file."

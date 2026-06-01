@@ -18,6 +18,7 @@ Then choose the skills you want to install into your agent.
 
 ### Productivity
 
+- [account-handoff](./skills/productivity/account-handoff/SKILL.md) - Summarize recent cross-project Codex account activity into a Markdown handoff file for account switching and work inheritance.
 - [notion-api-weekly](./skills/productivity/notion-api-weekly/SKILL.md) - Create row-by-row weekly report entries from recent Codex thread activity and upload them to a Notion task/report database through the official Notion API.
 
 ### Teaching
@@ -41,6 +42,7 @@ Then choose the skills you want to install into your agent.
 |   `-- plugin.json
 |-- skills/
 |   |-- productivity/
+|   |   |-- account-handoff/
 |   |   `-- notion-api-weekly/
 |   `-- teaching/
 |       `-- qq-homework-grader/
