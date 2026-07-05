@@ -1,0 +1,4 @@
+interface:
+  display_name: "ETMS App Debug"
+  short_description: "Fix ETMS APP Feishu bugs assigned to a configured owner number"
+  default_prompt: "Use $etms-app-debug to update the ETMS bug table, filter APP bugs assigned to my owner number, fix them, verify in emulator, then commit and push."
