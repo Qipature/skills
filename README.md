@@ -2,7 +2,7 @@
 
 Personal agent skills for Codex and compatible coding agents.
 
-This repository collects small, reusable skills for real workflows: Notion reporting, QQ homework grading, and future self-built automations. It follows the same broad shape as `mattpocock/skills`: each skill lives under `skills/<category>/<skill>/SKILL.md`, with any supporting scripts or references beside it.
+This repository collects small, reusable skills for real workflows: Notion reporting, QQ homework grading, ETMS APP bug fixing, and future self-built automations. It follows the same broad shape as `mattpocock/skills`: each skill lives under `skills/<category>/<skill>/SKILL.md`, with any supporting scripts or references beside it.
 
 ## Quickstart
 
@@ -19,6 +19,7 @@ Then choose the skills you want to install into your agent.
 ### Productivity
 
 - [account-handoff](./skills/productivity/account-handoff/SKILL.md) - Summarize recent cross-project Codex account activity into a Markdown handoff file for account switching and work inheritance.
+- [etms-app-debug](./skills/productivity/etms-app-debug/SKILL.md) - Update ETMS Feishu bug tables, filter APP bugs by a configurable assignee number such as 28, fix them, verify in emulator, then commit and push.
 - [notion-api-weekly](./skills/productivity/notion-api-weekly/SKILL.md) - Create row-by-row weekly report entries from recent Codex thread activity and upload them to a Notion task/report database through the official Notion API.
 
 ### Teaching
@@ -43,6 +44,7 @@ Then choose the skills you want to install into your agent.
 |-- skills/
 |   |-- productivity/
 |   |   |-- account-handoff/
+|   |   |-- etms-app-debug/
 |   |   `-- notion-api-weekly/
 |   `-- teaching/
 |       `-- qq-homework-grader/
